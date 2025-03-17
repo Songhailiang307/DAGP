@@ -13,6 +13,7 @@
 ./DAGP.sh pruned.raw id.txt rel.txt val.txt
 ```
 ## Description of arguments
+* pruned.raw
 Genotype file: PLINK-format genotype file encoded in 012 (0=homozygous reference, 1=heterozygous, 2=homozygous alternate).
 ```
 FID	IID	PAT	MAT	SEX	PHENOTYPE	SNP1	SNP2	SNP3
