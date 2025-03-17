@@ -13,7 +13,7 @@
 ./DAGP.sh pruned.raw id.txt rel.txt val.txt
 ```
 ## Description of arguments
-* pruned.raw
+* pruned.raw  
 Genotype file: PLINK-format genotype file encoded in 012 (0=homozygous reference, 1=heterozygous, 2=homozygous alternate).
 ```
 FID	IID	PAT	MAT	SEX	PHENOTYPE	SNP1	SNP2	SNP3
@@ -25,7 +25,7 @@ FID	IID	PAT	MAT	SEX	PHENOTYPE	SNP1	SNP2	SNP3
 179	179	0	0	0	-9	1	0	1
 180	180	0	0	0	-9	0	1	1
 ```
-* id.txt
+* id.txt  
 A single-column file listing sample IDs in the same order as pruned.raw.
 ```
 174
@@ -41,7 +41,7 @@ A single-column file listing sample IDs in the same order as pruned.raw.
 184
 185
 ```
-* rel.txt
+* rel.txt  
 Contains reference population IDs paired with their corresponding phenotypic values.
 ```
 174 0.192539683
@@ -56,7 +56,7 @@ Contains reference population IDs paired with their corresponding phenotypic val
 184 0.0971875
 185 0.133222222
 ```
-* val.txt
+* val.txt  
 Includes validation population IDs and their associated phenotypes for evaluation.
 ```
 183 0.1053
