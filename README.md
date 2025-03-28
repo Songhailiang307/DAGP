@@ -1,8 +1,8 @@
 # DAGP
 * A deep autoencoder compression-based genomic prediction method for whole-genome sequencing data.
 * This script executes the DAGP method, including genotype one-hot encoding, data division, data combining, and genomic prediction using GBLUP, Bayesian, and machine learning methods.
-* This script will store the results in a text file, including prediction accuracy, unbiasedness, mse and mae.
-![图片描述](example.jpg)
+* This script will store the results in a text file, including prediction accuracy, unbiasedness, mse and mae.  
+![DAGP](method.jpg)
 # Requirements
 * R 3.6.3 or higher
 * Python 3.7.0 or higher
